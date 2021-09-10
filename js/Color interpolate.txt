@@ -1,0 +1,64 @@
+		x  <= 13/25 (0.52) : újabb mobilok álló
+13/25 (0.52) <	x  <= 13/20 (0.65) : régebbi mobilok álló
+13/20 (0.65) <  x  <=   6/5 (1.20) : tablet álló
+  6/5 (1.20) <  x  <=   3/2 (1.50) : tablet fekvő
+  3/2 (1.50) <  x  <= 17/10 (1.70) : laptop
+17/10 (1.70) <  x  <= 19/10 (1.90) : régebbi mobilok fekvő
+19/10 (1.90) <  x 		   : újabb mobilok fekvő
+
+
+
+
+
+/*https://www.npmjs.com/package/color-interpolate
+import React from 'react';
+
+
+export const interpolate = require('color-interpolate');
+ 
+let colormap = interpolate(['black', 'gray', 'white']);
+let black = colormap(0); // 'rgb(0, 0, 0)'
+let white = colormap(1); // 'rgb(255, 255, 255)'
+let gray = colormap(.5); // 'rgb(128, 128, 128)'
+
+
+/*
+const blend = Color.interpolate(Color(piros), Color(feher));
+
+//blend(0)   // Initial state (red)
+//blend(0.5) // Mid state (purple)
+//blend(1)   // Final state (blue)
+
+const data = Data({
+  background: blend(0),
+});
+//console.log(Frame())
+
+const atmenet = {
+  type: 'spring',
+};
+
+export function ChangeColor(): Override {
+  return {
+    animate: {
+      background: data.background,
+      transition: { atmenet, duration: 0.6 },
+    },
+    onTap() {
+      //console.log(blend)
+      data.background = blend(1);
+      //blend = Color.interpolate(Color(piros), Color(feher))
+    },
+  };
+}
+*/
+
+
+
+piros háttér: 129 26 27
+kék háttér: 32 73 115
+
+
+
+
+document.getElementsByClassName('elementor-motion-effects-layer')
